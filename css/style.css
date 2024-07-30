@@ -418,6 +418,50 @@ h2 {
     font-weight: bold;
     font-style: italic;
 }
+/*aqui termina main historia.html*/
+
+/*aqui empieza MAIN de Contacto.html*/
+.titulo-contacto{
+    margin-top: 20px;
+    border-bottom: #5BBC62 solid 1px;
+    font-size: 40px;
+}
+.contacto-redes img{
+width: 41px;
+}
+.contacto-redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contacto-redes a {
+    
+    color: #008507;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.titulo-mapa{
+    margin-top: 40px;
+    font-weight: bolder;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: #5BBC62;
+}
+@media (max-width: 480px) {
+    .contacto-redes{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .contacto-redes{
+        display: block;
+        text-align: center;
+    }
+}
 
 /*media para el html TIENDA*/
 @media (max-width: 1024px) {
