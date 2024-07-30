@@ -362,15 +362,62 @@ h2 {
     border: 3px solid #5BBC62;
     margin-bottom: 10px;
 }
+/*FIN.....Main- actividades.html*/
 
+/*Main- historia.html*/
+.socio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
 
+}
+.socio {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    
+}
+.socio img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #5BBC62;
+    margin-bottom: 10px;
+}
+.socio-titulo{
+    margin-top: 18px;
+    border-bottom: #5BBC62
+    solid 1px;  
+}
+.portada-historia {
+    width: 100%;
+    object-fit: contain
+}
 
-
-
-
-
-
-
+.historia {
+    background-color: #BAEEAD;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+}
+.historia-cuerpo {
+    padding: 10px;
+}
+.titulo-historia{
+    background-color: #5BBC62;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
 
 /*media para el html TIENDA*/
 @media (max-width: 1024px) {
