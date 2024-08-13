@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+    .grid-container-tienda {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container-tienda{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container-tienda {
+        grid-template-columns: 1fr;
+    }
+}

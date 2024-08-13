@@ -1,0 +1,23 @@
+
+
+
+/*Aca estan las secciones del layout*/
+@import "./layout/header";
+@import "../scss/layout/main-index";
+@import "../scss/layout/footer";
+@import "../scss/layout/main-tienda";
+@import "../scss/layout/main-actividades";
+@import "../scss/layout/main-historia";
+@import "../scss/layout/main-contacto";
+
+/*reset o base del proyecto*/
+@import "../scss/base/reset";
+
+/*mediaqueries importantes*/
+@import "../scss/mediaqueries/mediaqueries-tienda";
+@import "../scss/mediaqueries/mediaquerie-contacto";
+
+/*Acà los componentes*/
+@import "../scss/components/botones";
+@import "../scss/components/cards";
+

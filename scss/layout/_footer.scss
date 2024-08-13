@@ -1,0 +1,26 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px;
+    padding: 20px; 
+    background-color: #5BBC62;
+  }
+  
+  footer {
+    div {
+      img {
+        height: 25px;
+      }
+      
+      display: flex;
+      align-items: center;
+      
+      a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #010101;
+        font-size: 12px;
+      }
+    }
+  }
+  

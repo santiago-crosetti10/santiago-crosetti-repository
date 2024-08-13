@@ -1,0 +1,112 @@
+
+/* Aca las cartas del index*/
+.cartaseccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap: 60px;
+  }
+  
+  .carta {
+    background-color: #BAEEAD;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.4s;
+  
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .carta-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .carta-img6 {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .carta-img2 {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .carta-img5 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .carta-cuerpo {
+    padding: 20px;
+  
+    h3 {
+      p {
+        span {
+          color: #010101;
+        }
+      }
+    }
+  }
+  .carta-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #208f04;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* Aca las cartas de tienda*/
+  .producto {
+    background-color: #ffffff;
+    border: 1px solid #BAEEAD;
+    border-radius: 10px;
+    margin: 10px;
+    height: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    .producto-img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+    
+    .producto-img2 {
+      @extend .carta-img;
+      margin-top: 10px;
+    }
+  }
+  
+  .Prenda {
+    padding: 10px;
+  }
+  
+  .producto-titulo {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .precio {
+    font-size: 18px;
+    color: #ff3a18;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  

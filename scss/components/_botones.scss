@@ -1,0 +1,14 @@
+/*Boton de compra tienda*/
+.boton-compra {
+  padding: 10px 20px;
+  background-color: #5BBC62;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #208f04;
+    transition-duration: 1s;
+  }
+}
